@@ -197,6 +197,9 @@
     }
 
     /* newsletter */
+    .bg{
+        margin-top: 50px;
+    }
     .newsletter{
         padding: 50px;
     }
@@ -218,6 +221,9 @@
     }
 
     /* footer */
+    .footer-top {
+        padding: 20px 0;
+    }
     .footer-top{
         text-align: center;
     }
