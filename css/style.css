@@ -49,6 +49,7 @@ body{
     top: 47px;
 }
 /* nav  Bar */
+
 .btn-brand{
     height: 52px;
     color: var(--text-white);
@@ -59,9 +60,8 @@ body{
     font-size: 18px;
 }
 .btn-brand:hover{
-    background-color: transparent;
-    border: 1px solid var(--c-brand);
-    color: var(--c-brand);
+    background-color:#146e6d ;
+    color: white;
 }
 .navbar-nav {
     margin-right: 58px;
@@ -138,7 +138,8 @@ margin-bottom: 26px;
     margin: 0; 
 }
 .button-container{
-    height: 120px;
+    max-height: 120px;
+    padding: 20px;
     border-radius: 107px;
     border: 1px solid #DADADA;
     box-shadow: 0px 25px 63px #0000001A;
@@ -174,6 +175,7 @@ img {
 }
 
 /* brand logo container */
+
 .logos img {
     max-width: 150px; 
     width: 100%; 
@@ -189,7 +191,7 @@ img {
     width: 100%;
     background-color: #F0F8F8;
     border-radius: 28px;
-    padding: 78px 60px;
+    padding: 70px 20px;
     display: flex;
     gap: 60px;
 }
@@ -401,6 +403,130 @@ padding-left: 50px;
 }
 
 /* Newsletter */
+.news-img,.newsletter{
+    padding: 20px;
+}
 .bg{
-    background-image: url('../image/bg.png');
+    margin-top: 180px;
+    background-color: var(--c-brand);
+    border-radius: 23px;
+}
+.newsletter{
+    padding: 100px 60px 100px 0px;
+}
+.newsletter-title{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.subscribe-box {
+    max-width: 600px;
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-color: #fff; 
+    padding: 25px;
+    
+  }
+  .subscribe-input{
+    outline: none;
+    border: none;
+    
+  }
+  #subscribe-button{
+    position: relative;
+    top: -3px;
+    right: -9px;
+    border-radius: 50px;
+  }
+  .subscribe-input:focus {
+    outline: none; 
+    box-shadow: none; 
+  }
+  ::placeholder{
+    font-family: "ProductSans-Regular";
+    font-size: 24px;
+    color: #B4B4B4;
+  }
+
+  /* footer */
+  footer{
+    margin-top: 90px;
+  }
+.footer-top{
+    padding: 70px 0;
+}
+.footer-bottom{
+    border-top: 1px solid #0000002B;
+    color: #0C2354;
+    margin: 0px 15px;
+    padding: 30px 0;
+    font-family: "ProductSans-Regular" ;
+    font-size: 17px;
+}
+.logo-light{
+    margin-bottom: 28px;
+}
+.icon-container{
+    display: flex;
+    gap: 14px;
+
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    border: 1px solid var(--c-brand);
+}
+
+.circle:hover{
+    background-color: var(--c-brand);
+}
+.circle:hover .change-color{
+    fill: white;
+}
+.footer-first{
+    margin-bottom: 52px;
+    line-height: 32px;
+    font-family: "ProductSans-Regular" ;
+    font-size: 17px;
+    color: #717081;
+}
+.footer-title{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #0C2354;
+    margin-bottom: 35px;
+   
+}
+.footer-ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-ul li a{
+    text-decoration: none;
+    color: #717081;
+    font-family: "ProductSans-Regular" ;
+    font-size: 20px;
+}
+.footer-ul li a:hover{
+    color: var(--c-brand);
+}
+.footer-ul li{
+    margin-bottom: 20px !important;
+}
+.f-secound{
+    padding-left: 150px;
+}
+.f-third{
+    padding-left: 150px;
+}
+.f-fourth{
+    padding-left: 100px;
 }

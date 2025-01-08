@@ -9,6 +9,99 @@
     section{
         all: unset;
     }
+    .hero-title{
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .tic-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .button-container{
+        padding: 20px;
+    }
+    .button-text{
+        margin-left: 20px;
+    }
+    .btn-brand-search{
+        padding: 20px 38px;
+    }
+    .img-container{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .about-title{
+        font-size: 36px;
+    }
+    .about-description{
+        font-size: 16px;
+    }
+    .count-people{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .btn-brand{
+        padding-left: 20px;
+    }
+    .about-info{
+        margin-bottom: 60px;
+    }
+    .tour-slider-navigator{
+        display: none !important;
+    }
+    .tour-title{
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 60px;
+    }
+
+    /* contact */
+    .contact-main-title{
+        font-size: 42px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .info-content{
+        text-align: left;
+    }
+
+    /* newsletter */
+    .newsletter{
+        padding: 50px;
+    }
+    .newsletter-title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .subscribe-box{
+        padding: 20px;
+    }
+    #subscribe-button{
+        top: 0;
+        left: -4px;
+    }
+
+    /* footer */
+    .f-secound{
+        padding-left: 100px;
+    }
+    .f-third{
+        padding-left: 12px;
+    }
+    .f-fourth{
+        padding-left: 100px;
+    }
+    .footer-title{
+        font-size: 28px;
+    }
+    .f-first,.f-secound{
+        margin-bottom: 24px;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -18,5 +111,151 @@
    .btn-brand{
     padding-left: 5px;
     padding-right: 25px;
-}
+   }
+   section{
+    all: unset;
+  }
+  .hero-title{
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+   }
+   .hero-description{
+    font-size: 16px;
+   }
+   .tic-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .button-container{
+        padding: 15px;
+    }
+    .button-text{
+        margin-left: 15px;
+    }
+    .btn-brand-search{
+        padding: 18px 35px;
+    }
+    .img-container{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .brand-logo-container{
+        padding: 40px 10px;
+        margin: 0 10px;
+    }
+    .about-title{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .about-description{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .count-people{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .btn-brand{
+        padding-left: 20px;
+    }
+    .about-info{
+        margin-bottom: 60px;
+    }
+    .tour-slider-navigator{
+        display: none !important;
+    }
+    .tour-title{
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    /* contact */
+    .contact-main-title{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .info-img-container{
+        height: 105px;
+        width: 105px;
+        padding: 20px;
+    }
+    .info-content-title{
+        font-size: 20px;
+    }
+    .info-content-descrip{
+        font-size: 15px;
+    }
+    .info-content{
+        text-align: left;
+    }
+
+    /* newsletter */
+    .newsletter{
+        padding: 50px;
+    }
+    .newsletter-title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .subscribe-box{
+        padding: 12px;
+    }
+    #subscribe-button{
+        top: 0;
+        left: -4px;
+        padding: 13px;
+    font-size: 18px;
+    }
+    ::placeholder{
+        font-size: 16px;
+    }
+
+    /* footer */
+    .footer-top{
+        text-align: center;
+    }
+    .f-secound{
+        padding-left: 12px;
+    }
+    .f-third{
+        padding-left: 12px;
+    }
+    .f-fourth{
+        padding-left: 12px;
+    }
+    .footer-title{
+        font-size: 28px;
+    }
+    .logo-light{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-first{
+        margin-bottom: 24px;
+    }
+    .footer-title{
+        margin-bottom: 24px;
+    }
+    .footer-ul li{
+        margin-bottom: 10px !important;
+    }
+    .footer-ul li a{
+        font-size: 18px;
+    }
+    .f-first,.f-secound,.f-third,.f-fourth{
+        margin-bottom: 34px;
+    }
+
 }
