@@ -426,7 +426,7 @@ padding-left: 50px;
     border-radius: 50px; 
     overflow: hidden; 
     background-color: #fff; 
-    padding: 25px;
+    padding: 23px 34px;
     
   }
   .subscribe-input{
@@ -436,7 +436,7 @@ padding-left: 50px;
   }
   #subscribe-button{
     position: relative;
-    top: -3px;
+    top: 0px;
     right: -9px;
     border-radius: 50px;
   }
